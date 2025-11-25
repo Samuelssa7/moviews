@@ -1,0 +1,65 @@
+:root {
+    --cor-fundo: #121212;
+    --cor-texto: #ffffff;
+    --cor-destaque: #8a2be2;
+    --cor-cartao: #1f1f1f;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: #000000 !important;
+    border-bottom: 2px solid var(--cor-destaque);
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+}
+
+.navbar-brand i {
+    color: var(--cor-destaque);
+    margin-right: 5px;
+}
+
+#btn-pesquisa:hover {
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}
+
+.card-resultado {
+    background-color: var(--cor-cartao);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border: 1px solid #333;
+    transition: transform 0.2s;
+}
+
+.card-resultado:hover {
+    border-color: var(--cor-destaque);
+}
+
+.poster-resultado {
+    width: 150px;
+    height: 225px;
+    border-radius: 5px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.info-filme {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .card-resultado {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
