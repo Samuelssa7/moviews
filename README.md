@@ -2,6 +2,9 @@
 
 **Moviews** é uma aplicação web simples e responsiva para buscar informações detalhadas sobre filmes e séries. O projeto consome a API do [TMDB (The Movie Database)](https://www.themoviedb.org/) para exibir dados em tempo real, como sinopse, nota, classificação indicativa e disponibilidade em serviços de streaming no Brasil.
 
+# 🔗 Link
+[Link do site.](https://samuelssa7.github.io/moviews/)
+
 ## 🚀 Funcionalidades
 
 - **Busca Integrada:** Pesquisa simultânea de filmes e séries.
