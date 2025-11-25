@@ -1,3 +1,4 @@
+const API_KEY = 'c121abf7773fc713664752e7845d80fe'; 
 const BASE_URL_IMAGEM = 'https://image.tmdb.org/t/p/w500';
 
 document.getElementById('btn-pesquisa').addEventListener('click', pesquisarNaAPI);
